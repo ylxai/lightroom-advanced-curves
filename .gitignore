@@ -1,0 +1,75 @@
+# Build directories
+build/
+dist/
+out/
+cmake-build-*/
+
+# Compiled binaries
+*.dll
+*.so
+*.dylib
+*.exe
+*.app
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE files
+.vscode/
+.idea/
+*.user
+*.suo
+*.ncb
+*.aps
+*.plg
+*.opt
+*.clw
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Logs
+*.log
+*.tmp
+logs/
+
+# Temporary files
+tmp_*
+temp_*
+*.temp
+*.swp
+*.swo
+
+# Plugin build artifacts
+*.lrplugin/build/
+*.lrplugin/*.dll
+*.lrplugin/*.so
+*.lrplugin/*.dylib
+
+# AI Model files (large binary files)
+*.model
+*.weights
+*.onnx
+
+# Development artifacts
+.cache/
+node_modules/
+*.pid
+setup.log
+
+# Sensitive information
+secrets/
+.env
+config.local.*
